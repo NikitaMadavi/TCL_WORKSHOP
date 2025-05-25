@@ -1,29 +1,69 @@
 # TCL_WORKSHOP
-TCL Workshop: From Introduction to Advanced Scripting Techniques in Design and Synthesis
 
-Author: Nikita Suresh Madavi
+**TCL Workshop: From Introduction to Advanced Scripting Techniques in Design and Synthesis**
 
-Acknowledgements: TCL Workshop by Mr. Kunal Ghosh , VLSI System Design
+## Author
 
-Tcl is a high-level, general-purpose, interpreted, dynamic programming language. It was designed with the goal of being very simple but powerful. Tcl casts everything into the mold of a command, even programming constructs like variable assignment and procedure definition.
+**Nikita Suresh Madavi**
 
-WORKSHOP AGENDA
-DAY 1: Introduction to TCL and VSDSYNTH Toolbox Usage
-    1. Basic Introduction and Tasks
-DAY 2: Variable Creation and Processing Constraints from CSV
-    1. CSV to format[1] and SDC - Variable Creation
-    2. CSV to format[1] and SDC - Processing constraints, CSV
-DAY 3: Processing Clock and Input Constraints
-    1. Processing clock constraints
-    2. Processing input constraints
-DAY 4: Complete Scripting and Yosys Synthesis Introduction
-    1. Full script for donwload and conclusion
-    2. Introduction to Yosys synthesis tool usage
-    3. Hierarchy check and error handling script creation for Yosys
-DAY 5: Advanced Scripting Techniques and Quality of Results Generation
-    1. Sysnthesis main file scripting and output file editing
-    2. World of 'Procs'
-    3. Interpret clock generation constraints
-    4. Interpret IO delays and transition constraints
-    5. Process bussed ports and configuration file creation for Opentimer
-    6. Quality of results (QoR) generation algorithm
+## Acknowledgements
+
+Special thanks to **Mr. Kunal Ghosh** and **VLSI System Design (VSD)** for conducting the TCL Workshop and providing valuable insights and materials.
+
+---
+
+## Overview
+
+Tcl (Tool Command Language) is a high-level, general-purpose, interpreted scripting language designed to be simple yet powerful. In Tcl, every operation is treated as a command—including core programming constructs such as variable assignment and procedure definitions.
+
+This repository provides a structured progression from introductory concepts to advanced scripting techniques using Tcl, specifically in the context of digital design and synthesis workflows. The content is derived from a hands-on workshop focused on scripting for synthesis flows using the VSDSYNTH toolbox and tools like Yosys and OpenTimer.
+
+---
+
+## Workshop Agenda
+
+### **Day 1: Introduction to TCL and VSDSYNTH Toolbox Usage**
+- Basic Introduction to Tcl
+- Initial Setup and Simple Tasks
+
+### **Day 2: Variable Creation and Processing Constraints from CSV**
+- Generate formatted variables and SDC constraints from CSV files
+- Read and process design constraints using CSV input
+
+### **Day 3: Processing Clock and Input Constraints**
+- Parse and handle clock constraint files
+- Implement input timing constraint processing
+
+### **Day 4: Complete Scripting and Yosys Synthesis Introduction**
+- Create and execute a full Tcl script for constraint download
+- Introduction to Yosys synthesis tool
+- Script for hierarchy checks and error handling in Yosys
+
+### **Day 5: Advanced Scripting Techniques and Quality of Results (QoR) Generation**
+- Scripting the main synthesis flow and editing output files
+- Advanced Tcl procedures (`procs`)
+- Clock generation constraint interpretation
+- Interpretation of IO delays and transition constraints
+- Handling bussed ports and creating configuration files for OpenTimer
+- Development of a QoR generation algorithm
+
+---
+
+## Getting Started
+
+To make use of this repository, ensure you have the following:
+
+- Tcl installed on your system
+- Yosys synthesis tool
+- Access to the VSDSYNTH toolbox
+- Familiarity with digital design and synthesis concepts
+
+---
+
+## License
+
+This workshop content is intended for educational purposes. Please cite the original author and acknowledge the VSD initiative if using or modifying the content.
+
+---
+
+
